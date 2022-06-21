@@ -108,7 +108,7 @@ body {
     margin: 0 0 37px 0;
 }
 .main-content__title_highlight {
-    background: #ECF3FF;
+    background: linear-gradient(#FFF, #ECF3FF);
 }
 .main-content__text {
     font: 400 21.5px/26px "Roboto", sans-serif ;
