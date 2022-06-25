@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-sacle=1">
     <title>Тестовый сайт</title>
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts.css">
@@ -11,7 +12,22 @@
     <div class="wrapper">
       <header class="header">
         <div class="logo">
-            <!--Контейнер для логотипа-->
+<!--Контейнер для логотипа-->
+        </div>
+<!--Габмургер меню-->
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+             <span></span>
+            </label>
+<!-- Список гамбургера  меню -->
+            <ul class="menu__box">
+             <li><a class="menu__items" href="#">start</a></li>
+              <li><a class="menu__items" href="#">services</a></li>
+              <li><a class="menu__items menu__items_about" href="#">about</a></li>
+              <li><a class="menu__items menu__items_blog" href="#">blog</a></li>
+              <li><a class="menu__items menu__items_contact" href="#">contact us</a></li>
+            </ul>
         </div>
         <nav class="menu">
             <a class="menu__item menu__item_start" href="#">start</a>
